@@ -1,0 +1,130 @@
+body{
+	background: url("images/background.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: Helvetica, Arial, sans-serif;
+	color: #FFFFFF;
+}
+
+h1 {
+	text-align: center;
+}
+
+#logo {
+	max-height: auto;
+	width: 100px;
+	position: absolute;
+	float: left;
+	margin: 0 10px;
+	border-radius: 25px;
+}
+
+#message {
+	display: inline;
+}
+
+#gameBoard {
+	display: none;
+}
+
+#question {
+	margin: 0 auto;
+	width: 50%;
+	padding: 10px 10px 0 10px;
+}
+
+#answers {
+	margin: 0 auto;
+	height: 95px;
+	width: 325px;
+}
+
+#ans1, #ans2, #ans3 {
+    border-radius: 25px;
+    background: rgba(40, 42, 81, 0.8);
+    padding: 10px;	
+	height: 75px;
+	width: 75px;
+	font-size: 1.2em;
+	text-align: center;
+	float: left;
+}
+
+#ans2 {
+	margin: 0 20px;
+}
+
+#message {
+	width: 40%;
+	height: 40%;
+	background: rgba(255, 0, 0, 0.8);
+	border-radius: 25px;
+	position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    padding: 75px;
+}
+
+.continue {
+	background-color: #000000;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    padding: 15px 50px;
+    border-radius: 30px;
+    float: center;
+    margin-top: 50px;
+    margin-left: 0px;
+    border: none;
+    width: 200px;
+}
+
+#centersc {
+	position: fixed;
+	bottom: 10px;
+	width: 100%;
+}
+
+#score {
+	height: 85px;
+	width: 390px;
+	margin: 0 auto;
+	text-align: center;
+	color: #000000;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+#scq1, #scq2, #scq3, #scq4, #scq5 {
+	width: 50px;
+	height: 50px;
+	background: #FFFFFF;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+	float: left;
+	margin: 12px 10px 12px 0;
+	line-height: 50px;
+}
+
+#complete {
+	width: 75px;
+	height: 75px;
+	border-radius: 25px;
+	background: #FFFFFF;
+	float: left;
+	display: table;
+	padding: 5px 5px 5px 10px;
+}
+
+#complete p {
+	display: table-cell;
+	vertical-align: middle;
+}
